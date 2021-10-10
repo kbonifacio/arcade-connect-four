@@ -1,0 +1,88 @@
+body {
+    background: url('https://image.freepik.com/free-vector/cute-halloween-seamless-background_6997-2266.jpg');
+}
+/* BOARD FORMATTING */
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(252, 238, 190);
+    width: 900px;
+    border: solid 10px black;
+}
+#board-container {
+    display: flex;
+    justify-content: center;
+}
+/* This is appended to #BOARD */
+.cell {
+    border-radius: 50%;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 10px;    
+}
+
+/* TITLE FORMATTING */
+#title-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Permanent Marker', bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width:800px;    
+    background-color: rgb(201, 23, 23);
+}
+/* PLAYERTAG FORMATTING */
+
+#player-turn-container {
+    display: flex;
+    justify-content: center;
+}
+#player-turn-container {
+    display: flex;
+    justify-content: center;
+    
+}
+#player-Turn {
+    color:black;
+    background-color: white;
+    font-size: 30px;
+    width:800px;
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input {
+    color: black;
+    font-size: 20px;
+    border: solid 1px black;
+    margin-right: 20px
+}
+button.start {
+    font-size: 20px;
+}
+#button-Container {
+    display:flex;
+    justify-content: center;
+}
+#resetButton {
+    margin-top: 20px;
+    font-size: 30px;
+}
+/* TOKEN COLOR FORMATTING */
+.blue {
+    background-color: rgb(99, 148, 208);
+}
+.red {
+    background-color: rgb(249, 108, 108);
+}
